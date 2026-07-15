@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flood Risk Alert</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <div class="container alert-danger">
+        <h1>⚠ Flood Risk Detected</h1>
+        <p>
+            Based on the entered weather parameters, there is a high probability
+            of flooding in this region. Please take necessary precautions and
+            alert relevant authorities immediately.
+        </p>
+        <a href="/" class="btn">Go Back</a>
+    </div>
+</body>
+</html>
